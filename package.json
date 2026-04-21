@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/nostr-nip17",
+  "name": "nostr-nip17",
   "version": "0.1.1",
   "description": "OpenClaw Nostr DM channel plugin with NIP-04, NIP-17, and multi-account support",
   "type": "module",
