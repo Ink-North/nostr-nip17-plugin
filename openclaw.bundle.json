@@ -1,0 +1,4 @@
+{
+  "format": "portable",
+  "hostTargets": ["gateway"]
+}
