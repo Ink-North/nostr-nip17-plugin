@@ -1,0 +1,21 @@
+{
+  "id": "nostr-nip17",
+  "name": "Nostr NIP-17",
+  "description": "OpenClaw Nostr DM channel plugin with NIP-04, NIP-17, and multi-account support",
+  "kind": "bundled-channel-entry",
+  "channels": ["nostr"],
+  "channelEnvVars": {
+    "nostr": ["NOSTR_PRIVATE_KEY"]
+  },
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": true,
+    "properties": {
+      "accounts": {
+        "type": "object",
+        "additionalProperties": true,
+        "description": "Additional plugin-owned Nostr accounts keyed by account id."
+      }
+    }
+  }
+}
